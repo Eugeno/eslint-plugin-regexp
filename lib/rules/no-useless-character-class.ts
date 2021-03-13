@@ -6,9 +6,7 @@ export default createRule("no-useless-character-class", {
     meta: {
         docs: {
             description: "disallow character class with one character",
-            // TODO In the major version
-            // recommended: true,
-            recommended: false,
+            recommended: true,
         },
         fixable: "code",
         schema: [

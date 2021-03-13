@@ -524,9 +524,7 @@ export default createRule("no-useless-flag", {
     meta: {
         docs: {
             description: "disallow unnecessary regex flags",
-            // TODO Switch to recommended in the major version.
-            // recommended: true,
-            recommended: false,
+            recommended: true,
             default: "warn",
         },
         fixable: "code",

@@ -7,8 +7,7 @@ export default createRule("no-useless-range", {
         docs: {
             description:
                 "disallow unnecessary range of characters by using a hyphen",
-            // TODO In the major version, it will be changed to "recommended".
-            recommended: false,
+            recommended: true,
         },
         fixable: "code",
         schema: [],

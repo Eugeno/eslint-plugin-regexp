@@ -140,9 +140,7 @@ export default createRule("no-trivially-nested-quantifier", {
         docs: {
             description:
                 "disallow nested quantifiers that can be rewritten as one quantifier",
-            // TODO Switch to recommended in the major version.
-            // recommended: true,
-            recommended: false,
+            recommended: true,
         },
         fixable: "code",
         schema: [],

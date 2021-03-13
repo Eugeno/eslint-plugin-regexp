@@ -8,9 +8,7 @@ export default createRule("no-non-standard-flag", {
     meta: {
         docs: {
             description: "disallow non-standard flags",
-            // TODO Switch to recommended in the major version.
-            // recommended: true,
-            recommended: false,
+            recommended: true,
         },
         schema: [],
         messages: {

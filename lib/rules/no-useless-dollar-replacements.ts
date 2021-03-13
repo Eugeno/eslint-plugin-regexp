@@ -24,7 +24,7 @@ export default createRule("no-useless-dollar-replacements", {
         docs: {
             description:
                 "disallow useless `$` replacements in replacement string",
-            recommended: false,
+            recommended: true,
         },
         schema: [],
         messages: {

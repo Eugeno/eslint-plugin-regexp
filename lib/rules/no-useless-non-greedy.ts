@@ -38,9 +38,7 @@ export default createRule("no-useless-non-greedy", {
     meta: {
         docs: {
             description: "disallow unnecessarily non-greedy quantifiers",
-            // TODO In the major version
-            // recommended: true,
-            recommended: false,
+            recommended: true,
         },
         fixable: "code",
         schema: [],

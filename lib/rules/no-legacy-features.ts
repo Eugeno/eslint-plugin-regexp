@@ -53,9 +53,7 @@ export default createRule("no-legacy-features", {
     meta: {
         docs: {
             description: "disallow legacy RegExp features",
-            // TODO In the major version
-            // recommended: true,
-            recommended: false,
+            recommended: true,
         },
         schema: [
             {

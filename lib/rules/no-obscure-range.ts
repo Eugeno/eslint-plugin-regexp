@@ -18,9 +18,7 @@ export default createRule("no-obscure-range", {
     meta: {
         docs: {
             description: "disallow obscure character ranges",
-            // TODO Switch to recommended in the major version.
-            // recommended: true,
-            recommended: false,
+            recommended: true,
         },
         schema: [
             {

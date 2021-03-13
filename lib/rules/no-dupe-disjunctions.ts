@@ -14,9 +14,7 @@ export default createRule("no-dupe-disjunctions", {
     meta: {
         docs: {
             description: "disallow duplicate disjunctions",
-            // TODO In the major version
-            // recommended: true,
-            recommended: false,
+            recommended: true,
         },
         schema: [
             {

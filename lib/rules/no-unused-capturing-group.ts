@@ -290,7 +290,7 @@ export default createRule("no-unused-capturing-group", {
     meta: {
         docs: {
             description: "disallow unused capturing group",
-            recommended: false,
+            recommended: true,
         },
         schema: [],
         messages: {

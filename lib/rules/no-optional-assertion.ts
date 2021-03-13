@@ -71,9 +71,7 @@ export default createRule("no-optional-assertion", {
     meta: {
         docs: {
             description: "disallow optional assertions",
-            // TODO Switch to recommended in the major version.
-            // recommended: true,
-            recommended: false,
+            recommended: true,
         },
         schema: [],
         messages: {

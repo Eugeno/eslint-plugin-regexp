@@ -9,6 +9,8 @@ since: "v0.4.0"
 
 > disallow unnecessary escape characters in RegExp
 
+- :gear: This rule is included in `"plugin:regexp/recommended"`.
+
 ## :book: Rule Details
 
 This rule reports unnecessary escape characters in RegExp.  

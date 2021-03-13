@@ -24,9 +24,7 @@ export default createRule("control-character-escape", {
     meta: {
         docs: {
             description: "enforce consistent escaping of control characters",
-            // TODO Switch to recommended in the major version.
-            // recommended: true,
-            recommended: false,
+            recommended: true,
         },
         fixable: "code",
         schema: [],

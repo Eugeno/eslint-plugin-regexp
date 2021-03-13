@@ -10,9 +10,7 @@ export default createRule("negation", {
     meta: {
         docs: {
             description: "enforce use of escapes on negation",
-            // TODO In the major version
-            // recommended: true,
-            recommended: false,
+            recommended: true,
         },
         fixable: "code",
         schema: [],
